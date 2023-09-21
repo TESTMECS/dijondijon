@@ -4,7 +4,9 @@ const Navbar = () => {
     
   return (
     <nav style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#fffdd0' }}>
-      <div id="logo">DijonDijon</div>
+      <div id="logo" onClick={() => window.location.reload()}>
+        <a>DijonDijon</a>
+        </div>
       <div>
       <a href='#section1' onClick={(event) => {event.preventDefault(); document.querySelector('#section1')?.scrollIntoView({ behavior: 'smooth' });}}>Music</a>
         <a href='https://shop.dijondijon.com/' target="_blank">Store</a>
