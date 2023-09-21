@@ -1,0 +1,50 @@
+nav {
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+#logo{
+  font-size: x-large;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  
+}
+
+nav a:hover {
+  color: #fff96b;
+}
+
+#main_button{
+  color: black;
+  background-color: #fffdd0;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  font: x-large;
+}
+#main_button:hover{
+  color: #fff96b;
+}
+#tour_bttn{
+  color: black;
+  background-color: #fffdd0;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  font: x-large;
+}
+#tour_bttn:hover{  
+  color: #fff96b;
+}
+
