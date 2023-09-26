@@ -34,6 +34,8 @@ const Navbar = () => {
         width: '100%',
         zIndex: 1000, // Add a z-index to make sure it's on top of other content
         transition: 'background-color 0.3s ease', // Add a smooth transition effect
+        padding: '10px 20px', // Adjust padding as needed
+        boxShadow: isSticky ? '0px 0px 5px rgba(0, 0, 0, 0.2)' : 'none'
       }}
     >
       <div id="logo" onClick={() => window.location.reload()}>
@@ -65,6 +67,7 @@ const Navbar = () => {
             event.preventDefault();
             document.querySelector('#section4')?.scrollIntoView({ behavior: 'smooth' });
           }}
+          
         >
           Join the Newsletter
         </a>
