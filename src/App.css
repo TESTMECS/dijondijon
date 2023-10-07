@@ -23,7 +23,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #fff96b;
+  color: #DBA507;
 }
 
 #main_button{
@@ -35,7 +35,7 @@ nav a:hover {
   font: x-large;
 }
 #main_button:hover{
-  color: #fff96b;
+  color: #DBA507;
 }
 #tour_bttn{
   color: black;
@@ -46,6 +46,15 @@ nav a:hover {
   font: x-large;
 }
 #tour_bttn:hover{  
-  color: #fff96b;
+  color: #DBA507;
 }
+#section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
 

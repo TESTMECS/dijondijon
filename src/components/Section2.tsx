@@ -1,4 +1,5 @@
 import tourcover from '../assets/tour-asset.jpeg';
+import '../App.css';
 
 const Section2 = () => {
   const openWebsiteInNewTab = () => {
